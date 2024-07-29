@@ -1,0 +1,493 @@
+CRITICAL - 2024-07-25 15:34:09 --> Error: Call to undefined method App\Controllers\reservacionesController::initController()
+[Method: GET, Route: reservaciones]
+in SYSTEMPATH\CodeIgniter.php on line 904.
+ 1 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:34:28 --> Error: Call to undefined method App\Controllers\reservacionesController::initController()
+[Method: GET, Route: reservaciones]
+in SYSTEMPATH\CodeIgniter.php on line 904.
+ 1 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:34:30 --> Error: Call to undefined method App\Controllers\reservacionesController::initController()
+[Method: GET, Route: reservaciones]
+in SYSTEMPATH\CodeIgniter.php on line 904.
+ 1 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:34:43 --> Error: Class "App\Controllers\BaseCollector" not found
+[Method: GET, Route: reservaciones]
+in APPPATH\Controllers\reservacionesController.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Controllers\\reservacionesController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\reservacionesController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\reservacionesController')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\reservacionesController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:35:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reservaciones.php"
+[Method: GET, Route: reservaciones]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reservaciones.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones', [], true)
+ 3 APPPATH\Controllers\reservacionesController.php(12): view('reservaciones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->reservaciones()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:36:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reservaciones.php"
+[Method: GET, Route: reservaciones]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reservaciones.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones', [], true)
+ 3 APPPATH\Controllers\reservacionesController.php(12): view('reservaciones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->reservaciones()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:36:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reservaciones.php"
+[Method: GET, Route: reservaciones]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reservaciones.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones', [], true)
+ 3 APPPATH\Controllers\reservacionesController.php(12): view('reservaciones', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->reservaciones()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:37:01 --> ErrorException: Undefined array key "reservaciones_id"
+[Method: GET, Route: reservaciones]
+in APPPATH\Views\reservaciones.php on line 63.
+ 1 APPPATH\Views\reservaciones.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "reservaciones_id"', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(12): view('reservaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->reservaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:38:13 --> ErrorException: Undefined array key "reservaciones_id"
+[Method: GET, Route: reservaciones]
+in APPPATH\Views\reservaciones.php on line 63.
+ 1 APPPATH\Views\reservaciones.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "reservaciones_id"', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(12): view('reservaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->reservaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:39:14 --> ErrorException: Undefined array key "reservaciones_id"
+[Method: GET, Route: reservaciones]
+in APPPATH\Views\reservaciones.php on line 63.
+ 1 APPPATH\Views\reservaciones.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "reservaciones_id"', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(12): view('reservaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->reservaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:39:17 --> ErrorException: Undefined array key "reservaciones_id"
+[Method: GET, Route: reservaciones]
+in APPPATH\Views\reservaciones.php on line 63.
+ 1 APPPATH\Views\reservaciones.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "reservaciones_id"', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(12): view('reservaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->reservaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 15:39:36 --> ErrorException: Undefined array key "reservaciones_id"
+[Method: GET, Route: reservaciones]
+in APPPATH\Views\reservaciones.php on line 70.
+ 1 APPPATH\Views\reservaciones.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "reservaciones_id"', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(12): view('reservaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->reservaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:23:08 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:24:49 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:24:51 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:29:43 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:29:45 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:30:28 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:31:42 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:32:00 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:32:03 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:37:05 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:37:35 --> ErrorException: Undefined variable $reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:38:40 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:38:41 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:38:42 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:38:50 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:38:53 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/99]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('99')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:39:07 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/99]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('99')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:39:41 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/99]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('99')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:43:01 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/99]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('99')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:43:02 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/99]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('99')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:43:06 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:43:55 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:44:31 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:44:37 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 17.
+ 1 APPPATH\Views\reservaciones_editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 17:45:24 --> ErrorException: Undefined variable $Reservaciones
+[Method: GET, Route: editar_reservaciones/100]
+in APPPATH\Views\reservaciones_editar.php on line 18.
+ 1 APPPATH\Views\reservaciones_editar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Reservaciones', 'C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\m2ra2_aat_hotel\\app\\Views\\reservaciones_editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones_editar', [], true)
+ 5 APPPATH\Controllers\reservacionesController.php(40): view('reservaciones_editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\reservacionesController->editarreservacion('100')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reservacionesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
